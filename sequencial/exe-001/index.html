@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terreno</title>
+
+    <style>
+        input {
+            width: 150px;
+            font: normal 16pt Arial;
+            margin-top: 15px;
+        }
+
+        input[type=button] {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="largura">Digite a largura do terreno: </label>
+        <input type="number" name="largura" id="largura">
+    </div>
+
+    <div>
+        <label for="comprimento">Digite o comprimento do terreno: </label>
+        <input type="number" name="comprimento" id="comprimento">
+    </div>
+
+    <div>
+        <label for="preco">Digite o valor do metro²: </label>
+        <input type="number" name="preco" id="preco">
+    </div>
+
+    <p id="area"></p>
+    <p id="valor"></p>
+
+    <input type="button" value="Verificar" id="btn">
+
+    <script src="script.js"></script>
+</body>
+</html>

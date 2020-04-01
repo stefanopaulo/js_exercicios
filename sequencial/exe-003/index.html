@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troco</title>
+
+    <style>
+        body {
+            font: normal 16pt Arial;
+        }
+
+        input {
+            width: 150px;
+            margin-top: 15px;
+            font: normal 16pt Arial;
+        }
+
+        input[type=button] {
+            cursor: pointer;
+        }
+
+        .res {
+            width: 400px;
+            height: 200px;
+            border: 1px solid #000;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .res p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="base">Preço unitario do produto: </label>
+        <input type="number" name="preco" id="preco">
+    </div>
+
+    <div>
+        <label for="altura">Quantidade comprada: </label>
+        <input type="number" name="qtd" id="qtd">
+    </div>
+
+    <div>
+        <label for="altura">Dinheiro recebido: </label>
+        <input type="number" name="din" id="din">
+    </div>
+
+    <div class="res">
+        <p id="troco"></p>
+    </div>
+
+    <input type="button" value="Verificar" id="btn">
+
+    <script src="./script.js"></script>
+</body>
+</html>
