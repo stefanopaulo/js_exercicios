@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo</title>
+
+    <style>
+        body {
+            font: normal 16pt Arial;
+        }
+
+        input {
+            width: 150px;
+            margin-top: 15px;
+            font: normal 16pt Arial;
+        }
+
+        input[type=button] {
+            cursor: pointer;
+        }
+
+        .res {
+            width: 400px;
+            height: 200px;
+            border: 1px solid #000;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .res p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="base">Distância percorrida: </label>
+        <input type="number" name="distancia" id="distancia">
+    </div>
+
+    <div>
+        <label for="comb">Combustivel gasto: </label>
+        <input type="number" name="comb" id="comb">
+    </div>
+
+    <div class="res">
+        <p id="consumo"></p>
+    </div>
+
+    <input type="button" value="Verificar" id="btn">
+
+    <script src="./script.js"></script>
+</body>
+</html>

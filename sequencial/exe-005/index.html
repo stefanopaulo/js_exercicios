@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idades</title>
+
+    <style>
+        body {
+            font: normal 16pt Arial;
+        }
+
+        input {
+            width: 150px;
+            margin-top: 15px;
+            font: normal 16pt Arial;
+        }
+
+        input[type=button] {
+            cursor: pointer;
+        }
+
+        .res {
+            width: 400px;
+            height: 200px;
+            border: 1px solid #000;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .res p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Dados da primeira pessoa</p>
+        <label for="base">Nome: </label>
+        <input type="text" name="nome1" id="nome1">
+        <label for="idade1">Idade: </label>
+        <input type="number" name="idade1" id="idade1">
+    </div>
+
+    <div>
+        <p>Dados da segunda pessoa</p>
+        <label for="base">Nome: </label>
+        <input type="text" name="nome2" id="nome2">
+        <label for="idade1">Idade: </label>
+        <input type="number" name="idade2" id="idade2">
+    </div>
+
+    <div class="res">
+        <p id="media"></p>
+    </div>
+
+    <input type="button" value="Verificar" id="btn">
+
+    <script src="./script.js"></script>
+</body>
+</html>
