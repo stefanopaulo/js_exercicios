@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperatura</title>
+</head>
+<body>
+    <div>
+        <p>Em qual escala você vai digitar a temperatura</p>
+        Celsius: <input type="radio" name="temp" id="cel">
+        Farenheit: <input type="radio" name="temp" id="fah">
+    </div>
+
+    <div>
+        <label for="txttemp">Digite a temperatura: </label>
+        <input type="number" name="txttemp" id="txttemp">
+    </div>
+
+    <input type="button" value="Verificar" class="btn">
+
+    <div class="res">
+        <p id="res"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
