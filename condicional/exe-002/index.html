@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Raízes da Equação</title>
+</head>
+<body>
+    <div>
+        <label for="cofa">Coeficiente A: </label>
+        <input type="number" name="cofa" id="cofa">
+    </div>
+
+    <div>
+        <label for="cofb">Coeficiente B: </label>
+        <input type="number" name="cofb" id="cofb">
+    </div>
+
+    <div>
+        <label for="cofc">Coeficiente C: </label>
+        <input type="number" name="cofc" id="cofc">
+    </div>
+
+    <input type="button" value="Verificar" onclick="raiz()">
+
+    <div class="res">
+        <p id="l1"></p>
+        <p id="l2"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
