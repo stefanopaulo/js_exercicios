@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>
+                Código do Produto
+            </th>
+
+            <th>
+                Preço do Produto
+            </th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>R$ 5.00</td>
+            <tr>
+            
+            <tr>
+                <td>2</td>
+                <td>R$ 3.50</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>R$ 4.80</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>R$ 8.90</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>R$ 7.32</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <label for="cod">Código do produto comprado: </label>
+        <input type="number" name="cod" id="cod" min="1" max="5">
+    </div>
+
+    <div>
+        <label for="qtd">Quantidade comprada: </label>
+        <input type="number" name="qtd" id="qtd" min="1">
+    </div>
+
+    <input type="button" value="Verificar" class="btn">
+
+    <div class="res">
+        <p id="valor"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
