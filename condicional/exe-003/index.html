@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menor de Três</title>
+</head>
+<body>
+    <div>
+        <label for="valor1">Primeiro Valor: </label>
+        <input type="number" name="valor1" id="valor1">
+    </div>
+
+    <div>
+        <label for="valor2">Segundo Valor: </label>
+        <input type="number" name="valor2" id="valor2">
+    </div>
+
+    <div>
+        <label for="valor1">Terceiro Valor: </label>
+        <input type="number" name="valor3" id="valor3">
+    </div>
+
+    <input type="button" value="Verificar" onclick="menorValor()">
+
+    <div class="res">
+        <p id="txtmenor"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
