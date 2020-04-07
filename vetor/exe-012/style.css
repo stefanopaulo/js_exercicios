@@ -1,0 +1,25 @@
+body {
+    font: normal 16pt Arial;
+}
+
+input {
+    width: 150px;
+    margin-top: 15px;
+    font: normal 16pt Arial;
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+.res {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.res p {
+    margin-top: 10px;
+}
