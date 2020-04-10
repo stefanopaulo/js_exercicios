@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preço da mercadoria</title>
+
+    <style>
+        input[type=button] {
+            cursor: pointer;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preço da mercadoria</h1>
+
+    <div>
+        <label for="precoc">Preco de compra: </label>
+        <input type="number" name="precoc" id="precoc">
+    </div>
+
+    <div>
+        <label for="frete">Frete: </label>
+        <input type="number" name="frete" id="frete">
+    </div>
+
+    <div>
+        <label for="despesas">Despesas: </label>
+        <input type="number" name="despesas" id="despesas">
+    </div>
+
+    <div>
+        <label for="precov">Preco de venda: </label>
+        <input type="number" name="precov" id="precov">
+    </div>
+
+    <input type="button" value="Calcular Custos" onclick="calcular()">
+
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

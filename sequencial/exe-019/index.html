@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coeficientes da Equação</title>
+
+    <style>
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digite os coeficientes da Equação</h1>
+
+    <div>
+        <label for="cofa">A: </label>
+        <input type="number" name="cofa" id="cofa">
+    </div>
+
+    <div>
+        <label for="cofb">B: </label>
+        <input type="number" name="cofb" id="cofb">
+    </div>
+
+    <div>
+        <label for="cofc">C: </label>
+        <input type="number" name="cofc" id="cofc">
+    </div>
+
+    <input type="button" value="Verificar" onclick="coeficientes()">
+
+    <div id="res"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

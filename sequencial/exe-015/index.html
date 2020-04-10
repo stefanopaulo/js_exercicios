@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressão do Pneu</title>
+
+    <style>
+        #btn {
+            cursor: pointer;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digite os seguintes dados referentes ao pneu</h1>
+
+    <div>
+        <label for="pressao">Pressão: </label>
+        <input type="number" name="pressao" id="pressao">
+    </div>
+
+    <div>
+        <label for="pressao">Volume: </label>
+        <input type="number" name="vol" id="vol">
+    </div>
+
+    <div>
+        <label for="pressao">Temperatura: </label>
+        <input type="number" name="temp" id="temp">
+    </div>
+
+    <input type="button" value="Calcular Massa" id="btn">
+
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

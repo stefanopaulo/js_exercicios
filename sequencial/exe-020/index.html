@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de dinheiro</title>
+
+    <style>
+        input {
+            margin-bottom: 20px;
+        }
+
+        input[type=text] {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digite os valores abaixo</h1>
+
+    <div>
+        <label for="nota2">Notas de R$ 2,00: </label>
+        <input type="number" name="nota2" id="nota2">
+    </div>
+
+    <div>
+        <label for="nota5">Notas de R$ 5,00: </label>
+        <input type="number" name="nota5" id="nota5">
+    </div>
+
+    <div>
+        <label for="nota10">Notas de R$ 10,00: </label>
+        <input type="number" name="nota10" id="nota10">
+    </div>
+
+    <div>
+        <label for="nota20">Notas de R$ 20,00: </label>
+        <input type="number" name="nota20" id="nota20">
+    </div>
+
+    <div>
+        <label for="nota50">Notas de R$ 50,00: </label>
+        <input type="number" name="nota50" id="nota50">
+    </div>
+
+    <div>
+        <label for="nota100">Notas de R$ 100,00: </label>
+        <input type="number" name="nota100" id="nota100">
+    </div>
+
+    <input type="button" value="Contar" onclick="contar()">
+
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

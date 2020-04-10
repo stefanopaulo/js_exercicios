@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala</title>
+</head>
+<body>
+    <h1>Vamos ver com quantos tijolos se construi uma sala</h1>
+
+    <div>
+        <label for="altt">Altura do tijolo (cm): </label>
+        <input type="number" name="altt" id="altt">
+    </div>
+
+    <div>
+        <label for="lagt">Largura do tijolo (cm): </label>
+        <input type="number" name="lagt" id="lagt">
+    </div>
+
+    <div>
+        <label for="altp">Altura da parede (m): </label>
+        <input type="number" name="altp" id="altp">
+    </div>
+
+    <div>
+        <label for="lagp">Largura da parede (m): </label>
+        <input type="number" name="lagp" id="lagp">
+    </div>
+
+    <input type="button" value="Calcular" onclick="calcular()">
+
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
